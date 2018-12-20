@@ -31,7 +31,7 @@ spec:
     spec:
       containers:
       - name: primary
-        image: index.docker.io/kashyapvirgo/spin-kube-demo-v2
+        image: index.docker.io/kashyapvirgo/spin-kube-demo-v2:latest
         ports:
         - containerPort: 8000
         readinessProbe:
